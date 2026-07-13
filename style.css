@@ -9685,3 +9685,16 @@ a, button, [role="button"] {
   display: block;
   line-height: 1.5;
 }
+
+/* Logos adaptés aux modes clair et sombre */
+.logo-theme--dark {
+  display: none;
+}
+
+html[data-theme="dark"] .logo-theme--light {
+  display: none;
+}
+
+html[data-theme="dark"] .logo-theme--dark {
+  display: block;
+}
